@@ -10,5 +10,9 @@
 
 <a href="student/showForm">Studnet form</a>
 
+<br><br>
+
+<a href="customer/showForm">Customer form</a>
+
 </body>
 </html>
