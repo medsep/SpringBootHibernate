@@ -24,8 +24,12 @@ public class CreateDemo {
 		//use session object to save
 		try {
 			//create objects
-			Instructor tempInstructor = new Instructor("Med", "Sepa", "sepa@email.com");
-			InstructorDetail tempInstructorDetail = new InstructorDetail("http://www.medsep.com/youtube","Loves life!!!");
+			/*Instructor tempInstructor = new Instructor("Med", "Sepa", "sepa@email.com");
+			InstructorDetail tempInstructorDetail = new InstructorDetail("http://www.medsep.com/youtube","Loves life!!!");*/
+			
+			//create objects
+			Instructor tempInstructor = new Instructor("Medi", "Sepah", "sepah@email.com");
+			InstructorDetail tempInstructorDetail = new InstructorDetail("http://www.medisepa.com/youtube","Loves Java!!!");
 			
 			//asscoaite objects
 			tempInstructor.setInstructorDetail(tempInstructorDetail);

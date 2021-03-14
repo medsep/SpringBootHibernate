@@ -32,6 +32,11 @@ public class InstructorDetail {
 		this.hobby = hobby;
 	}	
 	
+	//default cinstructor
+	public InstructorDetail() {
+		
+	}	
+	
 	//generate getter/setter methods
 	public int getId() {
 		return id;
